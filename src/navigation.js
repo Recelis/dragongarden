@@ -1,5 +1,6 @@
 import React from "react";
-import {Navbar, NavDropdown, Form, FormControl, Button, Nav} from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar"; 
+import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
