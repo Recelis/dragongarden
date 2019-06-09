@@ -4,23 +4,23 @@ import { Route, Switch } from "react-router-dom";
 import Navigation from "./navigation.js";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
+import Home from "./pages/home";
 
 function App() {
   return (
-    <Container className="App">
-      <Row>
-        <Navigation />
-      </Row>
+    <div className="App">
+      <Navigation />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/menu" component={Menu} />
         <Route path="/history" component={History} />
       </Switch>
-    </Container>
+      <Footer/>
+    </div>
   );
 }
 
-const Home = () => {
+const History = () => {
   return (
     <div>
       <p>hello</p>
@@ -35,12 +35,12 @@ const Menu = () => {
   );
 };
 
-const History = () => {
+const Footer = () => {
   return (
     <div>
-      <p>History</p>
+      <p>Copyright created by Jacky Lui</p>
     </div>
-  );
-};
+  )
+}
 
 export default App;

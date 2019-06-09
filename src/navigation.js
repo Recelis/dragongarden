@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="transparent" expand="lg" fixed = "top"> 
     <Navbar.Brand><Link to = "/">Dragon Garden Family Restaurant</Link></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
