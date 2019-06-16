@@ -44,13 +44,13 @@ const Footer = () => {
 const OpeningHours = props => {
   // map object and create component
   let openingtimes = Object.keys(hours).map((day)=>{
-    console.log(day);
+    // remove the underline + replace with space
+    let tag = day.replace(/_/, " ");
     return <HourLine 
-      day={day}
+      day={tag}
       hours={hours[day]}
     />
   })
-    // remove the underline + replace with space
   return (
     <div>
       {openingtimes}
