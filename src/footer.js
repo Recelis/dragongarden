@@ -23,6 +23,8 @@ const Footer = () => {
         </Col>
         <Col xs={4}>
           <p>18 Wickham St, Gympie QLD 4570</p>
+          <p>directions</p>
+          <p>map</p>
         </Col>
         <Col xs={4}>
           <p>Please Call Us to Book</p>
@@ -31,10 +33,9 @@ const Footer = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={4}>
+        <Col xs={8}>
           <p>Copyright Dragon Garden Restaurant, created by Jacky Lui</p>
         </Col>
-        <Col xs={4}>maps</Col>
         <Col xs={4}>facebook</Col>
       </Row>
     </Container>
