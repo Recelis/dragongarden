@@ -25,7 +25,7 @@ const Home = () => {
       <Carousel.Item>
         <img className="carousel_image" src={Image3} alt="Third slide" />
 
-        <Carousel.Caption>
+        <Carousel.Caption bsPrefix = "carousel-caption">
           <h3>Bird's Nest</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.

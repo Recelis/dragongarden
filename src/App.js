@@ -5,6 +5,9 @@ import Navigation from "./navigation.js";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Home from "./pages/home";
+import Menu from "./pages/menu";
+import History from "./pages/history";
+import Footer from "./footer";
 
 function App() {
   return (
@@ -20,27 +23,6 @@ function App() {
   );
 }
 
-const History = () => {
-  return (
-    <div>
-      <p>hello</p>
-    </div>
-  );
-};
-const Menu = () => {
-  return (
-    <div>
-      <p>Menu</p>
-    </div>
-  );
-};
 
-const Footer = () => {
-  return (
-    <div>
-      <p>Copyright created by Jacky Lui</p>
-    </div>
-  )
-}
 
 export default App;
