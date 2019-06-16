@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/dragongarden/static/css/main.5129f51e.chunk.css",
+    "main.js": "/dragongarden/static/js/main.584ec0fe.chunk.js",
+    "main.js.map": "/dragongarden/static/js/main.584ec0fe.chunk.js.map",
+    "runtime~main.js": "/dragongarden/static/js/runtime~main.f935f367.js",
+    "runtime~main.js.map": "/dragongarden/static/js/runtime~main.f935f367.js.map",
+    "static/js/2.3df5da48.chunk.js": "/dragongarden/static/js/2.3df5da48.chunk.js",
+    "static/js/2.3df5da48.chunk.js.map": "/dragongarden/static/js/2.3df5da48.chunk.js.map",
+    "index.html": "/dragongarden/index.html",
+    "precache-manifest.2c725eb320fded4e1250706b135fd6b4.js": "/dragongarden/precache-manifest.2c725eb320fded4e1250706b135fd6b4.js",
+    "service-worker.js": "/dragongarden/service-worker.js",
+    "static/css/main.5129f51e.chunk.css.map": "/dragongarden/static/css/main.5129f51e.chunk.css.map",
+    "static/media/stock1.jpg": "/dragongarden/static/media/stock1.68722edd.jpg",
+    "static/media/stock2.jpg": "/dragongarden/static/media/stock2.4ad9f6b4.jpg",
+    "static/media/stock3.jpg": "/dragongarden/static/media/stock3.85a580c1.jpg"
+  }
+}
