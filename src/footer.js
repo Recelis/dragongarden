@@ -27,7 +27,7 @@ const Footer = () => {
           <p>map</p>
         </Col>
         <Col xs={4}>
-          <p>Please Call Us to Book</p>
+          <p>Please call us to make a booking</p>
           <div><a href="tel:+61754825700">54825700</a></div>
           <div><a href="tel:+61-413-889-889">+61413889889</a></div> {/*check that this works*/}
         </Col>
