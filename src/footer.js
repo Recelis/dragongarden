@@ -15,18 +15,19 @@ const hours = {
 }
 
 const Footer = () => {
+  let iframeStyle ={border:'0'};
   return (
     <Container>
       <Row>
-        <Col xs={4}><h3>Opening Times</h3>
+        <Col sm={3}><h3>Opening Times</h3>
           <OpeningHours />
         </Col>
-        <Col xs={4}>
+        <Col sm={7}>
           <p>18 Wickham St, Gympie QLD 4570</p>
-          <p>directions</p>
-          <p>map</p>
+          <p>If you are travelling north, we are right behind the Caltex</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.380842227602!2d152.6563513943052!3d-26.191543441487905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b94a340b00bffff%3A0xeed0605a31ed7ad2!2sDragon+Garden+Family+Restaurant!5e0!3m2!1sen!2sau!4v1562201542553!5m2!1sen!2sau" width="600" height="450" frameborder="0" style={iframeStyle} allowfullscreen></iframe>
         </Col>
-        <Col xs={4}>
+        <Col sm={2}>
           <p>Please call us to make a booking</p>
           <div><a href="tel:+61754825700">54825700</a></div>
           <div><a href="tel:+61-413-889-889">+61413889889</a></div> {/*check that this works*/}
