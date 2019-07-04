@@ -4,6 +4,8 @@ import Image1 from "../images/stock1.jpg";
 import Image2 from "../images/stock2.jpg";
 import Image3 from "../images/stock3.jpg";
 
+import { Element } from "react-scroll";
+
 const Home = () => {
   return (
     <Carousel className = "carousel">
