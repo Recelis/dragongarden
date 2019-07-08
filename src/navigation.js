@@ -12,7 +12,7 @@ const Navigation = () => {
       <Nav className="mr-auto" bsPrefix = "nav">
         <Nav.Link><Link to = "/">Home</Link></Nav.Link>
         <Nav.Link><Link to = "/menu">Menu</Link></Nav.Link>
-        <Nav.Link><Link to = "/our-history">Our History</Link></Nav.Link>
+        {/* <Nav.Link><Link to = "/our-history">Our History</Link></Nav.Link> */}
         <Nav.Link>Contact Us</Nav.Link>
         <Nav.Link>Facebook Icon</Nav.Link>
       </Nav>
