@@ -3,14 +3,14 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Link } from "react-router-dom";
 import Image from "react-bootstrap/Image";
-import Logo from "./images/logo.png";
+
 
 const Navigation = () => {
   return (
     <Navbar bg="white" expand="lg" fixed="top" bsPrefix="navbar">
       <Navbar.Brand>
         <Link to="/">
-          <img alt="logo" src={Logo} height="80px" />
+          
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
