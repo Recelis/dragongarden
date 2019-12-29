@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dragongarden/static/css/main.8249895c.chunk.css",
+    "main.js": "/dragongarden/static/js/main.289cc120.chunk.js",
+    "main.js.map": "/dragongarden/static/js/main.289cc120.chunk.js.map",
+    "runtime~main.js": "/dragongarden/static/js/runtime~main.f935f367.js",
+    "runtime~main.js.map": "/dragongarden/static/js/runtime~main.f935f367.js.map",
+    "static/js/2.5f2ff4b7.chunk.js": "/dragongarden/static/js/2.5f2ff4b7.chunk.js",
+    "static/js/2.5f2ff4b7.chunk.js.map": "/dragongarden/static/js/2.5f2ff4b7.chunk.js.map",
+    "index.html": "/dragongarden/index.html",
+    "precache-manifest.640646a3132e85d4d89433247602cb70.js": "/dragongarden/precache-manifest.640646a3132e85d4d89433247602cb70.js",
+    "service-worker.js": "/dragongarden/service-worker.js",
+    "static/css/main.8249895c.chunk.css.map": "/dragongarden/static/css/main.8249895c.chunk.css.map",
+    "static/media/logo.png": "/dragongarden/static/media/logo.571146c1.png"
+  }
+}
