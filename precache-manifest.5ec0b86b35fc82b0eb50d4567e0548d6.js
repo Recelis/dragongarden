@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "496a2fc21226b7a2e494028b6b3fcfbd",
+    "revision": "6cdc81411e8be69379382732c33ae2b7",
     "url": "/dragongarden/index.html"
   },
   {
-    "revision": "2bee81ee86ceaf0c2bd6",
+    "revision": "22479dd0d344e111c67a",
     "url": "/dragongarden/static/css/main.8249895c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dragongarden/static/js/2.ca35b7c0.chunk.js"
   },
   {
-    "revision": "2bee81ee86ceaf0c2bd6",
-    "url": "/dragongarden/static/js/main.2f0a69cf.chunk.js"
+    "revision": "22479dd0d344e111c67a",
+    "url": "/dragongarden/static/js/main.38edc83e.chunk.js"
   },
   {
     "revision": "0b7eb887d6ade159a0c4",
