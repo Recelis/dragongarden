@@ -5,47 +5,32 @@ html, body {
   padding:0;
   }
 
-.navbar{
-  color:white;
-}
-.navImage{
-  width:100px;
-}
-.nav{
-  color:black;
-}
-
-.Component{
-  margin-top:200px;
-}
-
-.carousel{
-  max-width:100%;
-  height:100vh;
-}
-
-.carousel-inner{
-  max-width:100%;
-  height:100%;
-}
-
-.carousel_image{
-  width:100% !important;
-  object-fit:contain;
-}
-
-.carousel-caption{
-  color:white;
-  bottom:200px;
-}
+  .welcome-text{
+    font-family: 'Ma Shan Zheng', cursive;
+    text-align: center;
+    font-size: 36px;
+  }
 
 .menu{
   margin:0 auto;
-  width:80%;
-  
+  width:80%; 
+}
+
+.menu-category{
+  margin-bottom: 20px;
+}
+
+.itemTag{
+  /* width: 30px;
+  height: 30px; */
+  background-color: yellow;
+  color: black;
 }
 
 .menu_img{
   margin:20px;
 }
 
+.footer-text{
+  text-align:center;
+}

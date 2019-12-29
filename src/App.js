@@ -1,29 +1,50 @@
-import React from "react";
+import React, { Component } from "react";
 import "./App.css";
-import { Route, Switch } from "react-router-dom";
-import Navigation from "./navigation.js";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+
 
 import Header from "./components/header";
-import Menu from "./components/menu";
-import History from "./components/history";
-import Footer from "./footer";
+import Details from "./components/details";
+import Welcome from "./components/welcome";
+import Menu from "./components/menu/menu";
+import Footer from "./components/footer";
+import * as Scroll from 'react-scroll';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import OpenHours from "./components/openHours";
 
-
-
-function App() {
+class App extends Component {
+  constructor(){
+    super()
+  }
+  scrollToElement(element) {
+    scroller.scrollTo(element, {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
+    })
+  }
+  render(){
   return (
     <div className="App">
       <Header />
-      {/* <Navigation /> */}
-      <Switch>
-        <Route path="/menu" component={Menu} />
-        <Route path="/our-history" component={History} />
-      </Switch>
+      <Welcome />
+      <div className="d-flex justify-content-center">
+        <button className="btn btn-danger mx-1" onClick={()=>this.scrollToElement('hours')}>
+          Hours
+        </button>
+        <button className="btn btn-danger mx-1" onClick={()=>this.scrollToElement('menu')}>
+          Menu
+        </button>
+      </div>
+      <hr/>
+      <Details />
+      <OpenHours />
+      <hr/>
+      <Menu/>
+      <hr/>
       <Footer/>
     </div>
   );
+  }
 }
 
 
