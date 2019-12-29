@@ -31,6 +31,7 @@ const Menu = () => {
           <Col md={12}>
             <Element name="menu"><h2><u>Takeaway Menu</u></h2></Element>
             <p>Dine-in menu prices differ slightly.</p>
+            <p><div className="badge badge-warning">GF</div> Gluten Free</p>
             <Entree />
             <Soup />
             <ChefsSuggestionSpecial />
