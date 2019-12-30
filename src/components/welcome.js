@@ -24,9 +24,9 @@ const Welcome = () => {
                     <span>.</span>
                 </div>
                 <div className="d-flex flex-column welcome-text mx-1">
-                    <span>龙园</span>
+                    <span>龙苑</span>
                     <span>大</span>
-                    <span>家庭</span>
+                    <span>酒家</span>
                     <span>欢迎</span>
                     <span>您</span>
                     <span>品尝</span>

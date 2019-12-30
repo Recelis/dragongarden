@@ -4,7 +4,7 @@ import MenuItem from "./menuItem";
 const KingPrawn = () => {
     return (
         <div className="menu-category">
-            <h3 className="menu-subheading">King Prawns 金虾</h3>
+            <h3 className="menu-subheading">King Prawns 虾球</h3>
             <MenuItem itemNumber="40" itemName="Combination King Prawn" itemPrice="22.00"/>
             <MenuItem itemNumber="41" itemName="King Prawn with Cashew Nuts (diced veges)" itemPrice="24.00"/>
             <MenuItem itemNumber="42" itemName="King Prawn in Black Bean Sauce" itemPrice="22.00"/>
