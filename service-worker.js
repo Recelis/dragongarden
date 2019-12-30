@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dragongarden/precache-manifest.5ec0b86b35fc82b0eb50d4567e0548d6.js"
+  "/dragongarden/precache-manifest.7a55627b3c56cec79d99866b0f0cb56a.js"
 );
 
 self.addEventListener('message', (event) => {
