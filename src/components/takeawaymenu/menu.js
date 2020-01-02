@@ -23,14 +23,13 @@ var Scroll = require('react-scroll');
 var Element = Scroll.Element;
 
 
-const Menu = () => {
+const TakeAwayMenu = () => {
   return (
     <div className="Component">
       <Container bsPrefix="menu">
         <Row>
           <Col md={12}>
             <Element name="menu"><h2><u>Takeaway Menu</u></h2></Element>
-            <p>Dine-in menu prices differ slightly.</p>
             <p><div className="badge badge-warning">GF</div> Gluten Free</p>
             <Entree />
             <Soup />
@@ -54,4 +53,4 @@ const Menu = () => {
 };
 
 
-export default Menu;
+export default TakeAwayMenu;
