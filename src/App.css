@@ -20,6 +20,10 @@ html, body {
   margin-bottom: 20px;
 }
 
+.menu-item-description{
+  font-size:14px;
+}
+
 .itemTag{
   /* width: 30px;
   height: 30px; */

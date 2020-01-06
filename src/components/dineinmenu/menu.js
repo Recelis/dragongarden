@@ -7,7 +7,7 @@ import Row from "react-bootstrap/Row";
 import Entree from "./entree";
 import Soup from "./soup";
 import Banquet from "./banquet";
-import ChefsSuggestionSpecial from "./chefsSuggestionSpecial";
+import TopLineSelections from "./toplineselections";
 import Chicken from "./chicken";
 import Beef from "./beef";
 import BBQPork from "./bbqpork";
@@ -35,7 +35,7 @@ const DineInMenu = () => {
             <Entree />
             <Soup />
             <Banquet />
-            <ChefsSuggestionSpecial />
+            <TopLineSelections />
             <Chicken />
             <Beef />
             <BBQPork />
