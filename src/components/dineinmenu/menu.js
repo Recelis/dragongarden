@@ -8,6 +8,7 @@ import Entree from "./entree";
 import Soup from "./soup";
 import Banquet from "./banquet";
 import TopLineSelections from "./toplineselections";
+import SpecialtiesHouse from "./specialtieshouse.js";
 import Chicken from "./chicken";
 import Beef from "./beef";
 import BBQPork from "./bbqpork";
@@ -36,6 +37,7 @@ const DineInMenu = () => {
             <Soup />
             <Banquet />
             <TopLineSelections />
+            <SpecialtiesHouse />
             <Chicken />
             <Beef />
             <BBQPork />

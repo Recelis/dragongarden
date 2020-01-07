@@ -55,7 +55,7 @@ const ChefsSuggestionSpecial = () => {
             <div class="row">
                 <div className="col-6">
                     <p className="menu-item-description pl-4">
-                        Fresh calamari coated in a mixture of flour and egg white, marinated, and lightly deep-fried with spices and chilli. Served on a bed of shredded lettuce. 
+                        🌶️🌶️🌶️Fresh calamari coated in a mixture of flour and egg white, marinated, and lightly deep-fried with spices and chilli. Served on a bed of shredded lettuce. 
                     </p>
                 </div>
             </div>
