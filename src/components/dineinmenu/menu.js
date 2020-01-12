@@ -12,13 +12,15 @@ import SpecialtiesHouse from "./specialtieshouse.js";
 import Chicken from "./chicken";
 import Beef from "./beef";
 import BBQPork from "./bbqpork";
+import Fish from "./fish";
 import KingPrawn from "./kingprawn";
-import ScallopsFish from "./scallopfish";
+import Scallops from "./scallop";
 import Duck from "./duck";
 import SweetSour from "./sweetsour";
 import Omelette from "./omelette";
-import ChowMein from "./chowmein";
+import Childrens from "./childrens";
 import Rice from "./rice";
+import Desserts from "./desserts";
 
 
 var Scroll = require('react-scroll');
@@ -38,16 +40,25 @@ const DineInMenu = () => {
             <Banquet />
             <TopLineSelections />
             <SpecialtiesHouse />
-            <Chicken />
-            <Beef />
-            <BBQPork />
             <KingPrawn />
-            <ScallopsFish />
-            <Duck />
+            <Scallops />
+            <Beef />
+            <Chicken />
+            
+            <BBQPork />
             <SweetSour />
+            <Fish />
+
+            <Duck />
+            
+            
             <Omelette />
-            <ChowMein />
             <Rice />
+
+
+            <Childrens />
+            <Desserts />
+            
           </Col>
         </Row>
         <Row />

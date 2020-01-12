@@ -5,16 +5,15 @@ const Chicken = () => {
     return (
         <div className="menu-category">
             <h3 className="menu-subheading">Chicken 鸡</h3>
-            <MenuItem itemNumber="19" itemName="Braised Chicken with Black Bean Sauce" itemPrice="16.50"/>
-            <MenuItem itemNumber="20" itemName="Braised Chicken with Cashew Nuts (diced veges)" itemPrice="17.50"/>
-            <MenuItem itemNumber="21" itemName="Braised Chicken with Vegetable" itemPrice="16.50"/>
-            <MenuItem itemNumber="22" itemName="Braised Chicken with Mushroom" itemPrice="17.50"/>
-            <MenuItem itemNumber="23" itemName="Braised Chicken with Oyster Sauce" itemPrice="16.50"/>
-            <MenuItem itemNumber="24" itemName="Braised Chicken with Curry Sauce" itemPrice="16.50"/>
-            <MenuItem itemNumber="25" itemName="Braised Chicken in Satay Sauce" itemPrice="17.50"/>
-            <MenuItem itemNumber="26" itemName="Braised Chicken in Special Sauce (Hoi Sin Sauce)" itemPrice="17.50"/>
-            <MenuItem itemNumber="27" itemName="Fried Chicken Fillet in Lemon Sauce" itemPrice="18.50"/>
-            <MenuItem itemNumber="28" itemName="Deep Fried Crispy Skin Chicken (with bones)" itemPrice="16.50" itemTag="GF"/>
+            <MenuItem itemNumber="54" itemName="Fried Crispy Skin Chicken" itemPrice="19.00" itemTag="GF"/>
+            <MenuItem itemNumber="55" itemName="Braised Chicken with Cashew Nuts" itemPrice="19.50"/>
+            <MenuItem itemNumber="56" itemName="Braised Chicken with Vegetables" itemPrice="18.50"/>
+            <MenuItem itemNumber="57" itemName="Braised Chicken with Curry Sauce" itemPrice="18.50"/>
+            <MenuItem itemNumber="58" itemName="Braised Chicken with Black Bean Sauce" itemPrice="18.50"/>
+            <MenuItem itemNumber="59" itemName="Chilli Chicken Fillets" itemPrice="19.50"/>
+            <MenuItem itemNumber="60" itemName="Flaming Chicken in Satay Sauce" itemPrice="19.50"/>
+            <MenuItem itemNumber="61" itemName="Flaming Chicken with Special Sauce (Hoi Sin Sauce)" itemPrice="19.50"/>
+            <MenuItem itemNumber="62" itemName="Honey Chicken" itemPrice="19.50"/>
         </div>
     );
 }
