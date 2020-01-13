@@ -30,7 +30,7 @@ const TakeAwayMenu = () => {
         <Row>
           <Col md={12}>
             <Element name="menu"><h2><u>Takeaway Menu</u></h2></Element>
-            <p><div className="badge badge-warning">GF</div> Gluten Free</p>
+            <p><div className="badge badge-warning">GF</div> Gluten Free <div className="badge badge-warning">V</div> Vegetarian</p>
             <Entree />
             <Soup />
             <ChefsSuggestionSpecial />
