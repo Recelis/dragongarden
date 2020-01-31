@@ -9,7 +9,7 @@ const ChefsSuggestionSpecial = () => {
             <div className="row">
                 <div className="col-6">
                     <p className="menu-item-description pl-4">
-                        Choice pieces of lamb served with delightfully spicy sauce and onion, Just the right touch of all.
+                        Choice pieces of lamb served with delightfully spicy sauce and onion. Just the right touch of all.
                     </p>
                 </div>
             </div>

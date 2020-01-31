@@ -18,7 +18,7 @@ const Banquet = () => {
                             <span>Chicken with Vegetables</span>
                             <span>Honey King Prawns</span>
                             <span>Sweet and Sour Pork</span>
-                            <span>Flaming Beed with Hoi Sin Sauce</span>
+                            <span>Flaming Beef with Hoi Sin Sauce</span>
                             <span>Fried Rice</span>
                             <h5 className="mt-2">Dessert</h5>
                             <span>Ice Cream with Topping (Caramel, Chocolate, Strawberry, Maple)</span>
