@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dragongarden/static/css/main.f71bfa73.chunk.css",
-    "main.js": "/dragongarden/static/js/main.0e4470a9.chunk.js",
-    "main.js.map": "/dragongarden/static/js/main.0e4470a9.chunk.js.map",
-    "runtime~main.js": "/dragongarden/static/js/runtime~main.f935f367.js",
-    "runtime~main.js.map": "/dragongarden/static/js/runtime~main.f935f367.js.map",
-    "static/js/2.f9477f0f.chunk.js": "/dragongarden/static/js/2.f9477f0f.chunk.js",
-    "static/js/2.f9477f0f.chunk.js.map": "/dragongarden/static/js/2.f9477f0f.chunk.js.map",
-    "index.html": "/dragongarden/index.html",
-    "precache-manifest.4e27c845e224a91d0b387cfb3d5c166c.js": "/dragongarden/precache-manifest.4e27c845e224a91d0b387cfb3d5c166c.js",
-    "service-worker.js": "/dragongarden/service-worker.js",
-    "static/css/main.f71bfa73.chunk.css.map": "/dragongarden/static/css/main.f71bfa73.chunk.css.map",
-    "static/media/logo.png": "/dragongarden/static/media/logo.571146c1.png"
+    "main.css": "/static/css/main.f71bfa73.chunk.css",
+    "main.js": "/static/js/main.caff0fdd.chunk.js",
+    "main.js.map": "/static/js/main.caff0fdd.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.f9477f0f.chunk.js": "/static/js/2.f9477f0f.chunk.js",
+    "static/js/2.f9477f0f.chunk.js.map": "/static/js/2.f9477f0f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.adb5098a91fd61c041c204176d1fc1b2.js": "/precache-manifest.adb5098a91fd61c041c204176d1fc1b2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f71bfa73.chunk.css.map": "/static/css/main.f71bfa73.chunk.css.map",
+    "static/media/logo.png": "/static/media/logo.571146c1.png"
   }
 }
