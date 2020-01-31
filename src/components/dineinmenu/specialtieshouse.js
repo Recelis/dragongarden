@@ -4,7 +4,7 @@ import MenuItem from "./menuItem"
 const SpecialtiesHouse = () => {
     return (
         <div className="menu-category">
-            <h3 className="menu-subheading">Specialties of the House</h3>
+            <h3 className="menu-subheading">Specialties of the House 房子的特色</h3>
             <MenuItem itemNumber="25" itemName="West Lake Duck" itemPrice="27.00"/>
             <div className="row">
                 <div className="col-6">

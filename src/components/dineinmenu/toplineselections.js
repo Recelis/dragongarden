@@ -4,7 +4,7 @@ import MenuItem from "./menuItem"
 const ChefsSuggestionSpecial = () => {
     return (
         <div className="menu-category">
-            <h3 className="menu-subheading">Top Line Selections</h3>
+            <h3 className="menu-subheading">Top Line Selections 顶线选择</h3>
             <MenuItem itemNumber="19" itemName="Sizzling Mongolian Lamb" itemPrice="23.50"/>
             <div className="row">
                 <div className="col-6">

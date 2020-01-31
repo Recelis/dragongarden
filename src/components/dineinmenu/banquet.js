@@ -4,7 +4,7 @@ import MenuItem from "./menuItem"
 const Banquet = () => {
     return (
         <div className="menu-category container-fluid px-0 mx-0">
-            <h3 className="menu-subheading">Banquet </h3>
+            <h3 className="menu-subheading">Banquet 宴会</h3>
             <p>Minimum of four</p>
             <h4> Banquet A</h4>
             <div className="row">
