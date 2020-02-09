@@ -30,7 +30,9 @@ const TakeAwayMenu = () => {
         <Row>
           <Col md={12}>
             <Element name="menu"><h2><u>Takeaway Menu</u></h2></Element>
-            <p><div className="badge badge-warning">GF</div> Gluten Free <div className="badge badge-warning">V</div> Vegetarian</p>
+            <p><span className="badge badge-warning">GF</span> Gluten Free <span className="badge badge-warning">V</span> Vegetarian</p>
+            <p>Food Allergies - Should you have food allergies, please advise staff as this restaurant cannot be held responsible.</p>
+            <p>Prices include GST and are subject to change without notice.</p>
             <Entree />
             <Soup />
             <ChefsSuggestionSpecial />

@@ -5,7 +5,7 @@ const Banquet = () => {
     return (
         <div className="menu-category container-fluid px-0 mx-0">
             <h3 className="menu-subheading">Banquet 宴会</h3>
-            <p>Minimum of four</p>
+            <p>Minimum four persons</p>
             <h4> Banquet A</h4>
             <div className="row">
                 <div className="col-11 d-flex justify-content-between">
@@ -36,7 +36,7 @@ const Banquet = () => {
                     <div className="row mx-1">
                         <div className="d-flex flex-column">
                             <h5>Entree</h5>
-                            <span>Curry Puffs & Spring Roll & Fried Wonton</span>
+                            <span>Curry Puffs & Spring Rolls</span>
                             <span>Sweet Corn Crab Soup</span>
                             <h5 className="mt-2">Main</h5>
                             <span>Seafood Combination</span>
@@ -58,7 +58,7 @@ const Banquet = () => {
             <p><b>Please Note:</b> You can upgrade dessert to:</p>
             <MenuItem itemNumber="" itemName="Banana Fritters & Ice Cream" itemPrice="4.50"/>
             <MenuItem itemNumber="" itemName="Lychees and Ice Cream" itemPrice="4.50"/>
-            <MenuItem itemNumber="" itemName="Deep Fried Ice Cream" itemPrice="4.50"/>
+            <MenuItem itemNumber="" itemName="Deep Fried Ice Cream" itemPrice="5.00"/>
         </div>
     );
 }

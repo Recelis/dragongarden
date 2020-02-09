@@ -8,7 +8,7 @@ var Element = Scroll.Element;
  
 const OpenHours = () => {
     return (
-        <div className="Component">
+        <div className="Component mb-4">
             <Container bsPrefix="menu">
                 <Row>
                     <Col md={12}>
@@ -33,6 +33,13 @@ const OpenHours = () => {
                                 <span className="mx-1">Public Holidays</span><span>Check on &nbsp; 
                                     <a href="https://www.facebook.com/DragonGardenRestaurant/"><i className="fa fa-facebook" aria-hidden="true"></i>
                                     </a></span>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12 d-flex justify-content-center">
+                                <span className="mx-1"> 
+                                    Public Holiday Surcharge - 10%.    
+                                </span>
                             </div>
                         </div>
                     </Col>

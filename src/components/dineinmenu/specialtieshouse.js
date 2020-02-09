@@ -90,6 +90,11 @@ const SpecialtiesHouse = () => {
                 </div>
             </div>
             <MenuItem itemNumber="35" itemName="Dragon Garden Chow Mein" itemPrice="24.50"/>
+            <div className="mb-0">
+                <p className="pl-4 pb-0 mb-0">
+                    (Soft Noodle or Pan Fried)
+                </p>
+            </div>
             <div className="row">
                 <div className="col-6">
                     <p className="menu-item-description pl-4">
