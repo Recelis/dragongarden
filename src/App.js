@@ -8,8 +8,6 @@ import Welcome from "./components/welcome";
 import TakeAwayMenu from "./components/takeawaymenu/menu";
 import DineInMenu from "./components/dineinmenu/menu";
 import Footer from "./components/footer";
-import * as Scroll from 'react-scroll';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import OpenHours from "./components/openHours";
 
 class App extends Component {

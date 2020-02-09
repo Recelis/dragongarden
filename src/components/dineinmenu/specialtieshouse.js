@@ -69,7 +69,7 @@ const SpecialtiesHouse = () => {
             <div className="row">
                 <div className="col-6">
                     <p className="menu-item-description pl-4">
-                        🌶️🌶️🌶️(CHILLI BEAN SAUCE) MEDIUM OR HOT! Braised Chicken with capsicum, shallots, and onion, carrot cooked in chilli bean sauce. 
+                        <span role="img" aria-label="chilli">🌶️🌶️🌶️</span>(CHILLI BEAN SAUCE) MEDIUM OR HOT! Braised Chicken with capsicum, shallots, and onion, carrot cooked in chilli bean sauce. 
                     </p>
                 </div>
             </div>

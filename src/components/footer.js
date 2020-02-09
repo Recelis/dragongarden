@@ -1,8 +1,5 @@
 import React from "react";
 
-var Scroll = require('react-scroll');
-var Element = Scroll.Element;
-
 const Footer = () => {
   return (
     <div className="d-flex flex-fill justify-content-center">
