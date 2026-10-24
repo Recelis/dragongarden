@@ -31,8 +31,8 @@ const Navigation = () => {
           <Nav.Link href="tel:0754825700" className="phone-number">
             <i className="fa fa-phone" aria-hidden="true" /> (07) 5482 5700
           </Nav.Link>
-          <Nav.Link href="https://www.facebook.com/DragonGardenRestaurant/" target="_blank" rel="noreferrer">
-            <i className="fa fa-facebook" aria-hidden="true" />
+          <Nav.Link href="https://www.facebook.com/DragonGardenRestaurant/" target="_blank" rel="noreferrer" className="d-flex align-items-center px-2">
+            <i className="fa fa-facebook" aria-hidden="true" style={{ lineHeight: 1, fontSize: '1.2rem' }} />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
