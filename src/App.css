@@ -3,13 +3,14 @@
   --brand-red: #8B0000;
   --brand-red-dark: #5C0000;
   --brand-red-light: #CC3333;
-  --brand-gold: #D4A017;
-  --brand-gold-light: #F0D060;
-  --brand-dark: #1A1A1A;
-  --brand-dark-accent: #2A2A2A;
+  --brand-gold: #B8860B;
+  --brand-gold-light: #D4A017;
+  --brand-dark: #FFF8E7;
+  --brand-dark-accent: #F5EDE0;
   --brand-cream: #FFF8E7;
-  --brand-text: #F5F0E8;
-  --brand-text-dark: #2A2A2A;
+  --brand-text: #2A2A2A;
+  --brand-text-dark: #1A1A1A;
+  --brand-border: #E8DCC8;
 }
 
 html, body {
@@ -25,7 +26,7 @@ html, body {
 .navbar-dragon {
   background: linear-gradient(135deg, var(--brand-red-dark), var(--brand-red)) !important;
   border-bottom: 3px solid var(--brand-gold);
-  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
   padding: 0.5rem 1rem;
 }
 
@@ -38,7 +39,7 @@ html, body {
 }
 
 .navbar-dragon .nav-link {
-  color: var(--brand-text) !important;
+  color: rgba(255,255,255,0.85) !important;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   letter-spacing: 0.3px;
@@ -50,7 +51,7 @@ html, body {
 
 .navbar-dragon .nav-link:hover,
 .navbar-dragon .nav-link.active {
-  color: var(--brand-gold-light) !important;
+  color: #fff !important;
   border-bottom-color: var(--brand-gold);
 }
 
@@ -71,7 +72,7 @@ html, body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-top: 56px; /* navbar height */
+  margin-top: 56px;
 }
 
 .hero-image {
@@ -81,7 +82,7 @@ html, body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.35);
+  filter: brightness(0.4);
   z-index: 0;
 }
 
@@ -93,9 +94,9 @@ html, body {
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(26,26,26,0.3) 0%,
-    rgba(139,0,0,0.25) 50%,
-    rgba(26,26,26,0.6) 100%
+    rgba(0,0,0,0.2) 0%,
+    rgba(139,0,0,0.2) 50%,
+    rgba(0,0,0,0.5) 100%
   );
   z-index: 1;
 }
@@ -126,7 +127,7 @@ html, body {
 .hero-subtitle {
   font-family: 'Ma Shan Zheng', cursive;
   font-size: 2rem;
-  color: var(--brand-gold-light);
+  color: #FFD700;
   text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
   margin-bottom: 1rem;
 }
@@ -134,7 +135,7 @@ html, body {
 .hero-tagline {
   font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
-  color: var(--brand-text);
+  color: #fff;
   opacity: 0.9;
   letter-spacing: 1px;
 }
@@ -161,7 +162,7 @@ html, body {
 
 .btn-dragon-primary:hover {
   background: linear-gradient(135deg, var(--brand-red-light), var(--brand-red));
-  color: var(--brand-gold-light);
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(212,160,23,0.3);
 }
@@ -174,7 +175,7 @@ html, body {
 
 .btn-dragon-outline:hover {
   background: var(--brand-gold);
-  color: var(--brand-dark);
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 16px rgba(212,160,23,0.3);
 }
@@ -197,9 +198,9 @@ html, body {
 .section-header h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
-  color: var(--brand-gold);
+  color: var(--brand-red);
   font-size: 2rem;
-  border-bottom: 2px solid var(--brand-red);
+  border-bottom: 2px solid var(--brand-gold);
   display: inline-block;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
@@ -207,7 +208,7 @@ html, body {
 
 .section-header .subtitle {
   color: var(--brand-text);
-  opacity: 0.7;
+  opacity: 0.6;
   font-size: 0.95rem;
 }
 
@@ -217,7 +218,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3rem 1rem;
+  padding: 1rem 1rem;
   gap: 1rem;
 }
 
@@ -233,7 +234,7 @@ html, body {
 .welcome-text-cn {
   font-family: 'Ma Shan Zheng', cursive;
   font-size: 2rem;
-  color: var(--brand-gold);
+  color: var(--brand-red);
   text-align: center;
   max-width: 600px;
   line-height: 1.6;
@@ -244,7 +245,7 @@ html, body {
   justify-content: center;
   gap: 0.8rem;
   flex-wrap: wrap;
-  margin: 1rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .badge-dragon {
@@ -264,13 +265,13 @@ html, body {
 }
 
 .contact-section a {
-  color: var(--brand-gold);
+  color: var(--brand-red);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .contact-section a:hover {
-  color: var(--brand-gold-light);
+  color: var(--brand-red-light);
   text-decoration: underline;
 }
 
@@ -281,7 +282,7 @@ html, body {
 }
 
 .contact-item i {
-  color: var(--brand-gold);
+  color: var(--brand-red);
   width: 24px;
   margin-right: 0.5rem;
 }
@@ -289,24 +290,25 @@ html, body {
 .phone-number {
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--brand-gold-light) !important;
+  color: var(--brand-red) !important;
 }
 
 /* ===== Hours ===== */
 .hours-card {
-  background: linear-gradient(135deg, var(--brand-dark-accent), rgba(139,0,0,0.15));
-  border: 1px solid var(--brand-red);
+  background: #fff;
+  border: 1px solid var(--brand-border);
   border-radius: 12px;
   padding: 1.5rem 2rem;
   max-width: 500px;
   margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .hours-card h3 {
   font-family: 'Playfair Display', serif;
-  color: var(--brand-gold);
+  color: var(--brand-red);
   text-align: center;
-  border-bottom: 1px solid var(--brand-red);
+  border-bottom: 1px solid var(--brand-border);
   padding-bottom: 0.75rem;
   margin-bottom: 1rem;
 }
@@ -314,24 +316,28 @@ html, body {
 .hours-row {
   display: flex;
   justify-content: space-between;
-  padding: 0.3rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--brand-border);
+}
+
+.hours-row:last-of-type {
+  border-bottom: none;
 }
 
 .hours-day {
   color: var(--brand-text);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .hours-time {
-  color: var(--brand-gold-light);
+  color: var(--brand-red);
   font-weight: 700;
 }
 
 .hours-note {
   text-align: center;
   color: var(--brand-text);
-  opacity: 0.7;
+  opacity: 0.6;
   font-size: 0.9rem;
   margin-top: 0.75rem;
 }
@@ -340,7 +346,8 @@ html, body {
   text-align: center;
   color: var(--brand-red-light);
   font-size: 0.85rem;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
   font-weight: 700;
 }
 
@@ -366,14 +373,14 @@ html, body {
 }
 
 .menu-toggle-bar .btn:not(.active) {
-  background: transparent;
+  background: #fff;
   color: var(--brand-text);
-  border: 2px solid rgba(255,255,255,0.2);
+  border: 2px solid var(--brand-border);
 }
 
 .menu-toggle-bar .btn:not(.active):hover {
   border-color: var(--brand-gold);
-  color: var(--brand-gold);
+  color: var(--brand-red);
 }
 
 /* ===== Menu ===== */
@@ -385,39 +392,41 @@ html, body {
 
 .menu-category {
   margin-bottom: 1.5rem;
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: #fff;
+  border: 1px solid var(--brand-border);
   border-radius: 10px;
   padding: 1rem 1.2rem;
-  transition: background 0.2s ease, border-color 0.2s ease;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
 .menu-category:hover {
-  background: rgba(255,255,255,0.06);
-  border-color: rgba(255,255,255,0.1);
+  border-color: var(--brand-gold);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
 
 .menu-subheading {
   font-family: 'Playfair Display', serif;
-  color: var(--brand-gold);
+  color: var(--brand-red);
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid rgba(212,160,23,0.2);
+  border-bottom: 1px solid var(--brand-border);
 }
 
 .menu-item-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 0.15rem 0;
+  padding: 0.2rem 0;
   font-size: 0.95rem;
   color: var(--brand-text);
 }
 
 .menu-item-description {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.5);
+  color: var(--brand-text);
+  opacity: 0.5;
   font-style: italic;
 }
 
@@ -433,7 +442,7 @@ html, body {
 }
 
 .menu-item-price {
-  color: var(--brand-gold-light);
+  color: var(--brand-red);
   font-weight: 700;
   white-space: nowrap;
 }
@@ -450,7 +459,7 @@ html, body {
 .menu-info-text {
   font-size: 0.9rem;
   color: var(--brand-text);
-  opacity: 0.7;
+  opacity: 0.6;
   text-align: center;
 }
 
@@ -460,12 +469,12 @@ html, body {
 }
 
 .map-container {
-  border: 2px solid var(--brand-red);
+  border: 2px solid var(--brand-border);
   border-radius: 12px;
   overflow: hidden;
   max-width: 700px;
   margin: 0 auto;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .map-container iframe {
@@ -479,25 +488,24 @@ html, body {
   display: block;
   text-align: center;
   margin-top: 0.8rem;
-  color: var(--brand-gold);
+  color: var(--brand-red);
   font-size: 0.95rem;
 }
 
 .map-address-link:hover {
-  color: var(--brand-gold-light);
+  color: var(--brand-red-light);
 }
 
 /* ===== Footer ===== */
 .footer-dragon {
-  background: linear-gradient(135deg, var(--brand-red-dark), #1A0000);
+  background: linear-gradient(135deg, var(--brand-red-dark), var(--brand-red));
   border-top: 2px solid var(--brand-gold);
   padding: 1.5rem 0;
   text-align: center;
 }
 
 .footer-dragon p {
-  color: var(--brand-text);
-  opacity: 0.6;
+  color: rgba(255,255,255,0.7);
   font-size: 0.85rem;
   margin: 0;
 }
@@ -511,7 +519,7 @@ html, body {
 }
 
 .footer-dragon .social-link:hover {
-  color: var(--brand-gold-light);
+  color: #fff;
   transform: scale(1.15);
 }
 
@@ -538,7 +546,7 @@ html, body {
 
 .menu-quick-jump a {
   color: var(--brand-text);
-  opacity: 0.6;
+  opacity: 0.5;
   font-size: 0.8rem;
   text-decoration: none;
   padding: 0.2rem 0.6rem;
@@ -549,7 +557,7 @@ html, body {
 
 .menu-quick-jump a:hover {
   opacity: 1;
-  color: var(--brand-gold);
+  color: var(--brand-red);
   border-color: var(--brand-gold);
 }
 
