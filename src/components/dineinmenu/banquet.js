@@ -3,7 +3,7 @@ import MenuItem from "./menuItem"
  
 const Banquet = () => {
     return (
-        <div className="menu-category container-fluid px-0 mx-0">
+        <div className="menu-category">
             <h3 className="menu-subheading">Banquet 宴会</h3>
             <p>Minimum four persons</p>
             <h4> Banquet A</h4>
