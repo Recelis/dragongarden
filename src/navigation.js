@@ -8,7 +8,7 @@ const Navigation = () => {
     <Navbar className="navbar-dragon" expand="lg" fixed="top">
       <Navbar.Brand>
         <ScrollLink to="hero" smooth={true} duration={500} spy={true} offset={-70}>
-          🐉 Dragon Garden
+          Dragon Garden
         </ScrollLink>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
