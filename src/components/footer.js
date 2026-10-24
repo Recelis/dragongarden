@@ -2,13 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="d-flex flex-fill justify-content-center">
-        <div className="d-flex justify-content-center">
-          <p className="footer-text">
-            {" "}
-            &#169; 2020 Copyrighted. All Rights Reserved. Dragon Garden Family Restaurant Gympie
-          </p>
-        </div>
+    <div className="footer-dragon">
+      <div>
+        <a href="https://www.facebook.com/DragonGardenRestaurant/" target="_blank" rel="noopener noreferrer" className="social-link">
+          <i className="fa fa-facebook" aria-hidden="true" />
+        </a>
+      </div>
+      <p>&copy; 2020 Dragon Garden Family Restaurant Gympie. All Rights Reserved.</p>
     </div>
   );
 };
