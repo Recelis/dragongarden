@@ -1,28 +1,20 @@
 import React from 'react';
- 
+
 const MenuItem = (props) => {
     return (
-        <div className="row">
-
-            <div className="col-11 d-flex justify-content-between">
-                <div>
-                    <span className="mx-1">{props.itemNumber}.</span>
-                    <span>{props.itemName}</span>
-                </div>
-                <span>${props.itemPrice}</span>
+        <div className="menu-item-row">
+            <div>
+                <span className="menu-item-number">{props.itemNumber}.</span>
+                <span className="menu-item-name">{props.itemName}</span>
             </div>
-            {
-            props.itemTag ? 
-            <div className="col-1">
-                <div className="badge badge-warning">
-                    {props.itemTag}
-                </div>
-            </div>:
-                <div className="col-1">
-                </div>
-            }
+            <div>
+                <span className="menu-item-price">${props.itemPrice}</span>
+                {props.itemTag ? (
+                    <span className="badge badge-warning" style={{ marginLeft: '0.5rem' }}>{props.itemTag}</span>
+                ) : null}
+            </div>
         </div>
     );
 }
- 
+
 export default MenuItem;

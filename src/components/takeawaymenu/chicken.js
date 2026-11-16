@@ -1,6 +1,6 @@
 import React from 'react';
 import MenuItem from "./menuItem"
- 
+
 const Chicken = () => {
     return (
         <div className="menu-category">
@@ -18,5 +18,5 @@ const Chicken = () => {
         </div>
     );
 }
- 
+
 export default Chicken;

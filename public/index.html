@@ -4,44 +4,61 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="theme-color" content="#8B0000" />
+    <meta name="description" content="Dragon Garden Family Restaurant Gympie — Traditional Chinese Cuisine. Licensed, air conditioned, take away. Serving Gympie since 1983. (07) 5482 5700" />
+    <meta name="keywords" content="Chinese restaurant Gympie, Dragon Garden, Chinese food Gympie, take away Gympie, dine-in Gympie" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    
-  <link
-    rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-    crossorigin="anonymous"
-  />
-  <link href="https://fonts.googleapis.com/css?family=Anton|Ma+Shan+Zheng&display=swap" rel="stylesheet"> 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <title>Dragon Garden Family Restaurant</title>
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Dragon Garden Family Restaurant Gympie" />
+    <meta property="og:description" content="Traditional Chinese Cuisine — Licensed, Air Conditioned, Take Away. Serving Gympie since 1983." />
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:url" content="https://www.dragongardenfamilyrestaurant.com/" />
+    <meta property="og:locale" content="en_AU" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Dragon Garden Family Restaurant Gympie" />
+    <meta name="twitter:description" content="Traditional Chinese Cuisine — Serving Gympie since 1983." />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Ma+Shan+Zheng|Playfair+Display:700|Lato:400,700&display=swap" rel="stylesheet" /> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>Dragon Garden Family Restaurant | Traditional Chinese Cuisine Gympie</title>
+
+    <!-- Structured Data (LocalBusiness) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Dragon Garden Family Restaurant",
+      "image": "https://www.dragongardenfamilyrestaurant.com/logo.png",
+      "url": "https://www.dragongardenfamilyrestaurant.com/",
+      "telephone": "+61754825700",
+      "servesCuisine": "Chinese",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "18 Wickham Street, Bruce Highway",
+        "addressLocality": "Gympie",
+        "addressRegion": "QLD",
+        "addressCountry": "AU"
+      },
+      "openingHoursSpecification": [
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "", "closes": ""},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "11:00", "closes": "21:00"},
+        {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "12:00", "closes": "21:00"}
+      ],
+      "priceRange": "$$",
+      "areaServed": "Gympie"
+    }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
