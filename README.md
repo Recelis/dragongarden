@@ -24,6 +24,10 @@ How deployment works:
 4. The live site is served from the configured `homepage` URL:
    `https://www.dragongardenfamilyrestaurant.com/`
 
+### Continuous integration
+
+Pull requests to `master` run `.github/workflows/test.yml`, which runs `npm run lint` and `npm test`. Enable branch protection with the `test` check required to block merging on failures.
+
 ### Useful commands
 
 ```bash
@@ -38,6 +42,9 @@ npm run build
 
 # run tests
 npm test
+
+# run ESLint (warnings fail, matching CI and the production build)
+npm run lint
 
 # deploy to GitHub Pages (runs build first via predeploy)
 npm run deploy

@@ -11,6 +11,7 @@ import DineInMenu from "./components/dineinmenu/menu";
 import GoogleMaps from "./components/GoogleMaps";
 import Footer from "./components/footer";
 
+// Main application component for Dragon Garden website
 class App extends Component {
   constructor(){
     super();
