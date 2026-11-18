@@ -16,8 +16,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,5 +39,13 @@
   "homepage": "https://www.dragongardenfamilyrestaurant.com/",
   "devDependencies": {
     "gh-pages": "^2.1.1"
+  },
+  "overrides": {
+    "chokidar": {
+      "fsevents": "1.2.13"
+    },
+    "jest-haste-map": {
+      "fsevents": "1.2.13"
+    }
   }
 }
