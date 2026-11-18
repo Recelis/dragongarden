@@ -25,7 +25,7 @@ const GoogleMaps = () => {
           <a
             href="https://www.google.com/maps/dir//-26.1915088,152.6566924/@-26.191509,152.656692,18z?hl=en"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="map-address-link"
           >
             <i className="fa fa-map-marker" aria-hidden="true" /> 18 Wickham Street, Bruce Highway, GYMPIE
